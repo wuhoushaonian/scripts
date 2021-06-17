@@ -2,7 +2,7 @@
 name: sync-hby
 on:
   schedule:
-    - cron: '27,57 * * * *'
+    - cron: '25,55 * * * *'
   workflow_dispatch:
   watch:
     types: started
