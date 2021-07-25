@@ -2,7 +2,7 @@
 name: sync-JD
 on:
   schedule:
-    - cron: '50 */1 * * *'
+    - cron: '12 */6 * * *'
   workflow_dispatch:
   watch:
     types: started
